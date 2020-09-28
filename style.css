@@ -1,0 +1,506 @@
+
+*{margin: 0;
+  padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+.banner {
+    background-color:#22195b; 
+    height: 115vh;
+position: relative;
+    z-index: 1;
+    background-size: cover;
+
+    }
+    .background-img{
+    	background: url(banner-bg.png);
+    	position: absolute;
+    	top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+    }
+
+.bg-light {
+   background-color: transparent!important;
+}
+.navbar-nav.mr-auto{
+	    margin-left: 323px;
+    margin-right: 54px!important;
+    padding: 30px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: grey;
+}
+.btn.btn-outline-success.my-2.my-sm-0{
+	background: white;
+    border: 1px solid white;
+    font-size: 15px;
+    font-weight: 500;
+    color: #3a414e;
+    border-radius: 30px;
+   
+}
+.btn.btn-outline-success.my-2.my-sm-0:hover{
+	color: white;
+	
+	border-color: #21146a;
+
+}
+
+.image-fluid{padding: 97px 0px;}
+
+.banner-input .row .col-md-5{margin-top: 149px;}
+
+    .banner-input .row h1{color: white;
+    font-size: 50px;
+    margin: 0px 22px;
+    margin-bottom: 38px;
+}
+
+ .banner-input .row p{
+ 	color: white;
+ 	font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 27px;
+    margin-bottom: 45px; 
+ }
+
+
+.button.bg{border: 1px solid white;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    padding: 17px 38px;
+margin-left: 25px;
+text-decoration: none;}
+
+.button.bg:hover{
+	border: 1px solid white;
+	color:white;
+	background: #21146a;
+	cursor: pointer;
+}
+
+/*2nd Section*/
+
+.SecondSection{
+	margin: 100px 0;
+}
+.Secondintro{
+	margin: auto;
+    text-align: center;
+
+}
+.SecondSection .Secondintro h2{
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Rajdhani', sans-serif;
+} 
+.SecondSection .Secondintro p{color: #797979;
+padding: 0px 242px!important;
+}
+/*Service Section*/
+.service-1{
+    margin-top: 77px;
+    background: #FAF9FF;
+    padding: 20px 30px;
+    border: 1px solid #FAF9FF;
+    transition: 0.5s ease-in-out;
+}
+
+.service-1 i{
+	
+
+	font-size: 30px;
+    color: #21146a;
+     
+
+}
+.service-1 h3{
+font-family: 'Rajdhani', sans-serif;
+font-size: 22px;
+ font-weight: 600;
+ color: #3a414e;
+ margin: 15px 0px;
+}
+.service-1 p{
+	color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.service-1:hover{
+	background: white;
+    box-shadow: 0px 10px 21px 0px #FAF9FF;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+/*3rd Section*/
+.feature{
+	background: #FAF9FF;
+	padding: 80px 0px;
+	width:100%;
+}
+.feature h1{
+	font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.feature p{
+	color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.feature a{
+	text-decoration: none;
+}
+.button3{
+	background-color: transparent;
+   padding: 12px 45px;
+   border-radius: 30px;
+   text-decoration: none;
+   color: #3a414e;
+   transition: 0.5s ease-in-out;
+    border: 1px solid #21146a;
+}
+.button3:hover{
+	background-color: #21146a;
+    color: #fff;
+
+}
+.tt{
+    margin-top: 61px;
+}
+/*4th Section*/
+.FourthSection{
+	margin: 100px 0;
+}
+.Fourthintro{
+	margin: auto;
+    text-align: center;
+
+}
+.FourthSection .Fourthintro h2{
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Rajdhani', sans-serif;
+} 
+.FourthSection .Fourthintro p{color: #797979;
+padding: 0px 242px!important;
+}
+ .row.cont{
+ 	margin-top: 70px;}
+
+  .card-content{
+     background: #FAF9FF;
+    padding: 20px 30px;
+    border: 1px solid #FAF9FF;
+    transition: 0.5s ease-in-out;
+   }
+   .card-content.cont{
+   	margin-top: 30px;
+   }
+  .img-fluid.cont{
+  	margin-top: 18px;
+    margin-left: 36px;
+  } 
+.card-content.hh:hover, .card-content.cont:hover{
+	background: white;
+    box-shadow: 0px 10px 21px 0px #FAF9FF;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+/*5th Section*/
+.feature .col-md-5{
+margin-left: 70px;
+}
+/*6th Section*/
+
+.col-md-3.price{
+	background: #faf9ff;
+    border-radius: 3px;
+    border: 0;
+    transition: 0.5s ease-in-out;
+   padding: 0px 15px !important;
+}
+.pricingheader{
+	border-bottom: 1px solid #ebebeb;
+    padding: 40px 7px;
+    text-align: center;
+}
+
+.pricingheader h4{ont-size: 27px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e;
+}
+.pricingheader p{
+	margin-bottom: 27px;
+	color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.pricingheader h1{
+	font-size: 60px;
+}
+.dd{font-size: 40px;}
+
+.pricelist{
+	padding: 30px 8px 25px 8px;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;}
+    .pricelist ul{
+    	list-style: none;
+    }
+    .pricelist ul li{
+    	margin-bottom: 12px;
+    }  
+    .fa.fa-check{
+    	color: green;
+    }
+    .fa.fa-times{
+    	color: red;
+    }
+    .footer{
+    	padding: 45px 0;
+    	text-align: center;
+
+    }
+    .button.button-light{
+    background-color: transparent;
+    border-color: #21146a;
+    padding: 12px 45px;
+    border-radius: 30px;
+    }
+    .col-md-3.price:hover{
+    background: #fff;
+    box-shadow: 0px 20px 25.5px 4.5px rgba(33,20,106,0.1);
+    transition: 0.5s ease-in-out;
+    }
+ .button.button-light:hover{
+      background: #21146a;
+      color: #fff;
+ 	}  
+/*7th Section*/
+.seventhsection{
+	background: #faf9ff;
+	padding: 100px 0;
+	padding-bottom: 127px;
+}
+
+.Seventhintro{
+	margin: auto;
+    text-align: center;
+
+}
+.SeventhSection .Seventhintro h2{
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-family: 'Rajdhani', sans-serif;
+} 
+.seventhsection .Seventhintro p{color: #797979;
+padding: 0px 242px!important;
+}
+ .carousel-inner{
+ 	text-align: center;
+ }
+ .image-fluid.test{
+ 	   padding: 32px 0px;
+ 	} 
+
+ .image-fluid.test{
+ 	    	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+     top: 30px;
+    z-index: 58;
+}
+.carousel-inner{
+	margin-left: -80px;
+}
+ .carousel-caption{
+  background: white;
+    padding: 51px 172px 35px 10px;
+    position: relative;
+    padding: 10px -23px;
+    margin-top: 173px;
+    margin-left: -102px;
+  }
+  .carousel-caption h3{
+  	font-size: 22px;
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+    color: #3a414e;
+  }
+  .carousel-caption p{
+  	font-size: 14px;
+  	color: #797979;
+    font-family: "Roboto",sans-serif;
+    
+    font-weight: 400;
+	 }
+	.carousel-indicators li{
+		background: grey;
+		border-top: 0px;
+	}
+	.carousel-indicators .active{
+		background: #21146a;
+	}
+	.carousel-indicators li:hover{
+	    background: #21146a;
+	}
+	.carousel-indicators {text-align: center;
+   
+       position: absolute;
+    bottom: -62px;
+    }
+
+    /*8th Section*/
+    .logo{
+    	padding: 100px 0;
+
+    }
+    .logo .item {
+ filter: grayscale(1);
+    opacity: 0.2;
+    
+    }
+    .logo .item img{
+    	width: auto;
+    	
+    }
+    .logo .item:hover{
+    	filter: none;
+    	cursor: pointer;
+    	opacity: 2;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+    
+    display: none;}
+   
+/*9th Section*/
+
+.last-section{
+    height: 70vh;
+    background: #0e1424;
+    padding: 120px 0px 120px;
+}
+	
+
+ .last-section .row .col-md-2 ul{
+ 	list-style: none;
+ }
+ .last-section .row .col-md-2 ul li{
+ margin-bottom: 10px;
+ }
+ .last-section .row  h4{
+    margin-bottom: 25px;
+ }
+  .last-section .row h4{
+  	color: white;
+  	font-family: 'Rajdhani', sans-serif;
+  	font-size: 18px;
+  }
+  .last-section .row .col-md-2 li a{
+ color: #797979;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.last-section .row .col-md-2 li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+.last-section .row .col-md-4 p{
+	    color: #7b838a;
+	     font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 25px;
+}
+
+.input-group.mb-3{
+	position: relative;
+}
+.input-group-append .button{
+	position: absolute;
+}
+ .input-group.mb-3 .form-control{
+   
+    height: 48px;
+    border: none;
+    width: 67% !important;
+    font-weight: 400;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+.input-group-append{
+	padding: 8px 10px;
+}
+.input-group-append button{
+	font-family: "Roboto",sans-serif;
+    color: #3a414e;
+    border-radius: 0;
+    right: 65px;
+    border: 0;
+    font-size: 14px;
+    background: white;
+    font-weight: 500;
+    
+}
+
+.footer-note{color: #797979;
+    padding: 90px 0px;}
+
+    .footer-note a{
+    	color: white;
+    }
+    .footer-note a:hover{
+    	text-decoration: none;
+    	cursor: pointer;
+    }
+    .social{
+    	margin-left: 195px;
+    }
+.social a{
+	background: rgba(255,255,255,0.15);
+    margin-left: 3px;
+    width: 32px;
+    color: #fff;
+    display: inline-grid;
+    text-align: center;
+    height: 32px;
+    align-content: center;
+}
+
+
+   
